@@ -1,5 +1,6 @@
 
 import './App.css'
+import Inbox from './components/Inbox';
 import Login from './components/Login'
 import Navbar from './components/Navbar';
 import Onebox from './components/Onebox'
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Login/>} />
         <Route path="/onebox" element={<Onebox/>} />
+        <Route path="/inbox" element={<Inbox/>} />
       </Routes>
     {/* <Footer/> */}
     </div>

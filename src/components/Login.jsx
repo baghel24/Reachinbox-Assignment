@@ -3,20 +3,19 @@ import React from 'react'
 const Login = () => {
   return (
     <section className='min-h-screen bg-black' >
-      {/* <div className='bg-blue-700'>
-      <a href='https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=http://localhost:5174/Onebox'>Login with google</a>
-
-        </div> */}
-      <div class="relative py-[15rem] sm:max-w-xl sm:mx-auto ">
+     <div className='border-b-2 border-gray-400/20 h-14 flex items-center justify-center '>
+     <img src="src\assets\logo.png" alt="logo"  width={180} className='py-3 '/>
+     </div>
+      <div class="relative py-[12rem] sm:max-w-xl sm:mx-auto ">
         <div
-          class="relative px-4 py-10  border-2 border-gray-300 mx-8 md:mx-0 shadow rounded-3xl sm:p-10"
+          class="relative px-4 py-10  border-2 border-gray-300/30 mx-8 md:mx-0 shadow rounded-3xl sm:p-10 bg-opacity-120 backdrop-blur-xl bg-white/10  "
         >
           <h1 className='text-gray-50 text-center font-bold text-xl mb-7'>
             Create a new Account</h1>
           <div class="flex justify-center w-full items-center">
             <div>
               <button
-                class="flex items-center justify-center py-2 px-20 border-2 border-gray-300  hover:bg-gray-900 text-gray-300 w-full transition ease-in duration-200 text-center text-base   focus:outline-none  rounded-md"
+                class="flex items-center justify-center py-2 px-20 border-2 border-gray-300/30  hover:bg-gray-900 text-gray-300 w-full transition ease-in duration-200 text-center text-base   focus:outline-none  rounded-md"
               >
                 <svg
                   viewBox="0 0 24 24"
@@ -91,9 +90,9 @@ const Login = () => {
 
             </div>
           </div>
-          <div class="mt-14 mx-32">
+          <div class="mt-14 mx-[10rem]">
             <button
-              class="py-2 px-4 bg-gradient-to-r from-blue-400 to-blue-800 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none  rounded-md"
+              class="py-2  bg-gradient-to-r from-blue-400 to-blue-800 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none  rounded-md"
               type="submit"
             >
               Create an Account
