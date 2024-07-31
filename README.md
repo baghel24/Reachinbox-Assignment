@@ -16,7 +16,7 @@ Ensure you have the following installed:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/your-vite-react-project.git
+    git clone (https://github.com/baghel24/Reachinbox-Assignment.git)
     ```
 
 2. **Navigate to the project directory:**
@@ -55,7 +55,7 @@ Ensure you have the following installed:
 
 5. **Open the project in your browser:**
 
-    Once the development server is running, open your browser and go to the URL provided by Vite, typically `http://localhost:3000`.
+    Once the development server is running, open your browser and go to the URL provided by Vite, typically `(http://localhost:5173/)`.
 
 ## Contributing
 
