@@ -57,12 +57,5 @@ Ensure you have the following installed:
 
     Once the development server is running, open your browser and go to the URL provided by Vite, typically `(http://localhost:5173/)`.
 
-## Contributing
-
-If you want to contribute to this project, please fork the repository and create a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
