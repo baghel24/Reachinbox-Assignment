@@ -83,7 +83,7 @@ const Login = () => {
                     fill="#FFF"
                   ></path>
                 </svg>
-                <a href='https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=http://localhost:5173/Onebox'>
+                <a href='https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://reachinbox-assignment-by-vishal.netlify.app/Onebox'>
                 <span class="ml-2">Sign Up with Google</span>
                 </a>
               </button>
