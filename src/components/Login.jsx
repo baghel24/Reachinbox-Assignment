@@ -1,10 +1,11 @@
 import React from 'react'
+import { LOGO } from '../assets' 
 
 const Login = () => {
   return (
     <section className='min-h-screen bg-black' >
      <div className='border-b-2 border-gray-400/20 h-14 flex items-center justify-center '>
-     <img src="src\assets\logo.png" alt="logo"  width={180} className='py-3 '/>
+     <img src={LOGO} alt="logo"  width={180} className='py-3 '/>
      </div>
       <div class="relative py-[12rem] sm:max-w-xl sm:mx-auto ">
         <div
